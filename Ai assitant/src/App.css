@@ -2,17 +2,22 @@
 body {
   margin: 0;
   padding: 0;
-  background: #18181b;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #18181b 0%, #2b1055 50%, #6f00ff 100%);
   font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
   color: #fff;
 }
 
 .header {
   text-align: center;
-  color: #ececf1;
+  color: #fff;
   font-size: 2.5rem;
   font-weight: 700;
   letter-spacing: 0.5px;
+  background: linear-gradient(90deg, #7f37ff 0%, #1379ee 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 .chat-container {
@@ -60,8 +65,8 @@ body {
 
 
 .user {
-  background: #424141;
-  color: #ececf1;
+  background: linear-gradient(90deg, #5f5fff 0%, #7f37ff 100%);
+  color: #fff;
   align-self: flex-end;
   border-bottom-right-radius: 8px;
   border-top-right-radius: 18px;
@@ -71,11 +76,12 @@ body {
   margin-right: 2%;
   padding: 10px;
   border: none;
+  box-shadow: 0 2px 12px 0 rgba(79, 9, 199, 0.12);
 }
 
 .model {
-  background: #232323;
-  color: #ececf1;
+  background: linear-gradient(90deg, #5e2ac0 0%, #2f2c8e 60%, #1379ee 100%);
+  color: #fff;
   align-self: flex-start;
   border-bottom-left-radius: 8px;
   border-top-right-radius: 18px;
@@ -83,7 +89,9 @@ body {
   border-bottom-right-radius: 14px;
   margin-right: auto;
   margin-left: 2%;
+  padding: 10px;
   border: none;
+  box-shadow: 0 2px 12px 0 rgba(19,121,238,0.10);
 }
 
 .input-area {
@@ -97,8 +105,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: transparent;
-  padding: 24px 0 24px 0;
+background: linear-gradient(90deg, #7a459f 0%, #272574 60%, #7f37ff 100%);
+  border-radius: 32px;
+  padding: 10px;
   z-index: 10;
   pointer-events: auto;
 }
@@ -107,8 +116,8 @@ input, textarea {
   width: 100%;
   min-height: 40px;
   max-height: 120px;
-  background-color: #212121;
-  color: white;
+  background: linear-gradient(90deg, #111160 0%, #4a2589 100%);
+  color: #fff;
   border-radius: 30px;
   padding: 10px 20px;
   border: none;
@@ -118,14 +127,15 @@ input, textarea {
   overflow-wrap: break-word;
   word-break: break-word;
   white-space: pre-wrap;
+  box-shadow: 0 2px 8px 0 rgba(136, 62, 255, 0.08);
 }
 
 .input-area button {
   width: 80px;
   height: 50px;
-  border-radius: 10px;
-  background: #1379ee;
-  color: #fef9f9;
+  border-radius: 25px;
+  background: linear-gradient(90deg, #7f37ff 0%, #1379ee 100%);
+  color: #fff;
   border: none;
   display: flex;
   align-items: center;
@@ -135,11 +145,12 @@ input, textarea {
   cursor: pointer;
   transition: background 0.2s, color 0.2s;
   margin-left: 4px;
+  box-shadow: 0 2px 8px 0 rgba(127,55,255,0.12);
 }
 
 .input-area button:hover {
-  background: #0a62e5;
-  /* color: #181818; */
+  background: linear-gradient(90deg, #1379ee 0%, #7f37ff 100%);
+  color: #fff;
 }
 
 .input-area .icon-btn {
@@ -188,7 +199,7 @@ input, textarea {
   .input-area input {
     padding: 8px 8px;
     font-size: 1rem;
-    border-radius: 8px;
+    border-radius: 20px;
   }
   .input-area button {
     width: 70px;
