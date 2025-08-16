@@ -56,7 +56,7 @@ It allows users to chat with an AI assistant in real time. The project is built 
 
 ## 🌐 Live Demo  
 
-- 🔗 **Frontend**: [ai-chatbot.vercel.app](https://ai-chatbot.vercel.app)  
+- 🔗 **Frontend**: [ai-chatbot.vercel.app](https://ai-chatbot-6o4u.vercel.app/)
 - 🔗 **Backend**: [ai-chatbot.onrender.com](https://ai-chatbot.onrender.com)  
 
 ---
