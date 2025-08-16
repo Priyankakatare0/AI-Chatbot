@@ -1,6 +1,5 @@
 import { useState } from 'react'
 // import './App.css'
-import ChatbotMsg from './components/ChatbotMsg.jsx'
 import { use } from 'react'
 import ChatWindow from './components/ChatWindow.jsx';
 import InputBox from './components/InputBox.jsx';
