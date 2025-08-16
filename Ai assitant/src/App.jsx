@@ -18,7 +18,7 @@ function App() {
       setLoading(true);
 
       try{
-        const res = await axios.post("http://localhost:3000/chat", {
+        const res = await axios.post("https://ai-chatbot-5jmo.onrender.com/chat", {
           message : text,
         });
         const botMessage = { role: "model", text: res.data.reply };
